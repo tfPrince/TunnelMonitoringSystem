@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D9BBEADB-2FB5-4CE8-99BC-D1F21C0CC54E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>suidaozhaoming</RootNamespace>
+    <AssemblyName>suidaozhaoming</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\suidaozhaoming.dll" />
+    <Content Include="bin\suidaozhaoming.pdb" />
+    <Content Include="Draw1.aspx" />
+    <Content Include="Draw2.aspx" />
+    <Content Include="Draw3.aspx" />
+    <Content Include="Draw4.aspx" />
+    <Content Include="Energy.aspx" />
+    <Content Include="EnergyDay.aspx" />
+    <Content Include="firstpage.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="obj\Debug\suidaozhaoming.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\suidaozhaoming.dll" />
+    <Content Include="obj\Debug\suidaozhaoming.pdb" />
+    <Content Include="obj\Debug\TempPE\Service References.weatherwebservice.Reference.cs.dll" />
+    <Content Include="Page12.aspx" />
+    <Content Include="Page121.aspx" />
+    <Content Include="Page131.aspx" />
+    <Content Include="Page1315.aspx" />
+    <Content Include="Page133.aspx" />
+    <Content Include="Page14.aspx" />
+    <Content Include="Page15.aspx" />
+    <Content Include="Page16.aspx" />
+    <Content Include="Page160.aspx" />
+    <Content Include="Page161.aspx" />
+    <Content Include="Page24.aspx" />
+    <Content Include="Page25.aspx" />
+    <Content Include="Page27.aspx" />
+    <Content Include="Page28.aspx" />
+    <Content Include="Page29.aspx" />
+    <Content Include="pic\caozuojiluchakan.png" />
+    <Content Include="pic\full.png" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <Content Include="pic_weather\b0.gif" />
+    <Content Include="pic_weather\b1.gif" />
+    <Content Include="pic_weather\b10.gif" />
+    <Content Include="pic_weather\b11.gif" />
+    <Content Include="pic_weather\b12.gif" />
+    <Content Include="pic_weather\b13.gif" />
+    <Content Include="pic_weather\b14.gif" />
+    <Content Include="pic_weather\b15.gif" />
+    <Content Include="pic_weather\b16.gif" />
+    <Content Include="pic_weather\b17.gif" />
+    <Content Include="pic_weather\b18.gif" />
+    <Content Include="pic_weather\b19.gif" />
+    <Content Include="pic_weather\b2.gif" />
+    <Content Include="pic_weather\b20.gif" />
+    <Content Include="pic_weather\b21.gif" />
+    <Content Include="pic_weather\b22.gif" />
+    <Content Include="pic_weather\b23.gif" />
+    <Content Include="pic_weather\b24.gif" />
+    <Content Include="pic_weather\b25.gif" />
+    <Content Include="pic_weather\b26.gif" />
+    <Content Include="pic_weather\b27.gif" />
+    <Content Include="pic_weather\b28.gif" />
+    <Content Include="pic_weather\b29.gif" />
+    <Content Include="pic_weather\b3.gif" />
+    <Content Include="pic_weather\b30.gif" />
+    <Content Include="pic_weather\b31.gif" />
+    <Content Include="pic_weather\b4.gif" />
+    <Content Include="pic_weather\b5.gif" />
+    <Content Include="pic_weather\b6.gif" />
+    <Content Include="pic_weather\b7.gif" />
+    <Content Include="pic_weather\b8.gif" />
+    <Content Include="pic_weather\b9.gif" />
+    <Content Include="Registerpage.aspx" />
+    <Content Include="Register_1.aspx" />
+    <Content Include="ScriptNote.aspx" />
+    <Content Include="Secondpage.aspx" />
+    <None Include="Service References\WeatherWebService\WeatherWebService.disco" />
+    <None Include="Service References\WeatherWebService\configuration91.svcinfo" />
+    <None Include="Service References\WeatherWebService\configuration.svcinfo" />
+    <None Include="Service References\WeatherWebService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <None Include="Service References\WeatherWebService\WeatherWebService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Draw1.aspx.cs">
+      <DependentUpon>Draw1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Draw1.aspx.designer.cs">
+      <DependentUpon>Draw1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Draw2.aspx.cs">
+      <DependentUpon>Draw2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Draw2.aspx.designer.cs">
+      <DependentUpon>Draw2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Draw3.aspx.cs">
+      <DependentUpon>Draw3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Draw3.aspx.designer.cs">
+      <DependentUpon>Draw3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Draw4.aspx.cs">
+      <DependentUpon>Draw4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Draw4.aspx.designer.cs">
+      <DependentUpon>Draw4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Energy.aspx.cs">
+      <DependentUpon>Energy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Energy.aspx.designer.cs">
+      <DependentUpon>Energy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EnergyDay.aspx.cs">
+      <DependentUpon>EnergyDay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EnergyDay.aspx.designer.cs">
+      <DependentUpon>EnergyDay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="firstpage.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>firstpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="firstpage.aspx.designer.cs">
+      <DependentUpon>firstpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page12.aspx.cs">
+      <DependentUpon>Page12.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page12.aspx.designer.cs">
+      <DependentUpon>Page12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page121.aspx.cs">
+      <DependentUpon>Page121.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page121.aspx.designer.cs">
+      <DependentUpon>Page121.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page131.aspx.cs">
+      <DependentUpon>Page131.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page131.aspx.designer.cs">
+      <DependentUpon>Page131.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page1315.aspx.cs">
+      <DependentUpon>Page1315.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page1315.aspx.designer.cs">
+      <DependentUpon>Page1315.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page133.aspx.cs">
+      <DependentUpon>Page133.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page133.aspx.designer.cs">
+      <DependentUpon>Page133.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page14.aspx.cs">
+      <DependentUpon>Page14.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page14.aspx.designer.cs">
+      <DependentUpon>Page14.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page15.aspx.cs">
+      <DependentUpon>Page15.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page15.aspx.designer.cs">
+      <DependentUpon>Page15.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page16.aspx.cs">
+      <DependentUpon>Page16.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page16.aspx.designer.cs">
+      <DependentUpon>Page16.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page160.aspx.cs">
+      <DependentUpon>Page160.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page160.aspx.designer.cs">
+      <DependentUpon>Page160.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page161.aspx.cs">
+      <DependentUpon>Page161.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page161.aspx.designer.cs">
+      <DependentUpon>Page161.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page24.aspx.cs">
+      <DependentUpon>Page24.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page24.aspx.designer.cs">
+      <DependentUpon>Page24.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page25.aspx.cs">
+      <DependentUpon>Page25.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page25.aspx.designer.cs">
+      <DependentUpon>Page25.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page27.aspx.cs">
+      <DependentUpon>Page27.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page27.aspx.designer.cs">
+      <DependentUpon>Page27.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page28.aspx.cs">
+      <DependentUpon>Page28.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page28.aspx.designer.cs">
+      <DependentUpon>Page28.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page29.aspx.cs">
+      <DependentUpon>Page29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page29.aspx.designer.cs">
+      <DependentUpon>Page29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registerpage.aspx.cs">
+      <DependentUpon>Registerpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registerpage.aspx.designer.cs">
+      <DependentUpon>Registerpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register_1.aspx.cs">
+      <DependentUpon>Register_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register_1.aspx.designer.cs">
+      <DependentUpon>Register_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptNote.aspx.cs">
+      <DependentUpon>ScriptNote.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ScriptNote.aspx.designer.cs">
+      <DependentUpon>ScriptNote.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Secondpage.aspx.cs">
+      <DependentUpon>Secondpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Secondpage.aspx.designer.cs">
+      <DependentUpon>Secondpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\WeatherWebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="obj\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\WeatherWebService\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>6914</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
